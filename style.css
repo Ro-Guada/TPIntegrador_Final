@@ -1,0 +1,24 @@
+.barradeMenu {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    height: 3em;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+}
+
+.NuevaLista {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+.NuevaLista > li {
+    list-style-type:none;
+}
+.NuevaLista > li > a {
+    color: white;
+    text-decoration: none;
+}
+
