@@ -43,7 +43,7 @@
     
 }**/
 
-header {
+/**header {
     background-color: blueviolet;
     
     
@@ -60,10 +60,31 @@ h1 {
     text-decoration: none;
     align-items: center;
     list-style-type: none;
-    display: flex;
-
+    display: flex; **/
     
-}
+
+    .encabezado {
+       background-color: blueviolet;
+        display: flex;
+        justify-content: space-between;
+    }
+    .encabezado-links {
+        display: flex;
+        width: 500px;
+        justify-content: space-around;
+
+    }
+
+    .encabezado-links > a {
+        color: black;
+        justify-content: space-around;
+        text-decoration: none;
+        align-items: center;
+        list-style-type: none;
+        display: flex;
+    }
+    
+
 .piedepagina {
     width: 100%;
     background-color: blueviolet;
@@ -92,6 +113,10 @@ section {
       min-height: 500px;
 }
 
+.carousel {
+    width: 50%;
+    height: 400px;
+}
 /**  Quienes Somos **/
 .quienesSomos {
     background-color: beige;
@@ -141,6 +166,9 @@ section {
     list-style-type: none;
 }
 
+.division > ul {
+    list-style: none;
+}
 /**  Contacto **/
 .contacto {
     background-color: darksalmon;
@@ -174,6 +202,12 @@ input {
     padding-top: 10px;
 }
 
+#numerodeMascotas {
+    width: 50px;
+}
 .inputEnviar {
     width: 200px;
+}
+.formItem > .btn {
+    width: 100px;
 }
