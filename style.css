@@ -60,7 +60,7 @@ h1 {
     text-decoration: none;
     align-items: center;
     list-style-type: none;
-    display: flex; **/
+    display: flex; }
     
 
     .encabezado {
@@ -100,7 +100,7 @@ section {
   }
   
 
-/**   Carrousel    **/
+   Carrousel    
 .carousel .carousel-inner {
     height: 400px;
 }
@@ -117,7 +117,7 @@ section {
     width: 50%;
     height: 400px;
 }
-/**  Quienes Somos **/
+  Quienes Somos 
 .quienesSomos {
     background-color: beige;
 }
@@ -137,7 +137,7 @@ section {
     padding-top: 10px;
 }
 
-/**  Presentacion **/
+ Presentacion 
 .presentacion {
     background-color: gray;
 }
@@ -169,7 +169,7 @@ section {
 .division > ul {
     list-style: none;
 }
-/**  Contacto **/
+ Contacto 
 .contacto {
     background-color: darksalmon;
 }
@@ -210,4 +210,173 @@ input {
 }
 .formItem > .btn {
     width: 100px;
+} **/
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff; /* Fondo en tonos de azul claro */
+    color: #333; /* Texto en azul oscuro */
 }
+
+/* Header */
+header {
+    background: url('.perroygato2.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: #333; /* Texto en azul oscuro */
+}
+
+.header-logo {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    text-decoration: none;
+    color: #333; /* Texto en azul oscuro */
+}
+
+.header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-nav a {
+    color: #333; /* Texto en azul oscuro */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.header-nav a:hover {
+    color: #007acc; /* Cambio de color al pasar el ratón, azul más oscuro */
+}
+
+/* Pie de página */
+.piedepagina {
+    background: #007acc; /* Fondo azul oscuro */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+/* Sección de contenido */
+section {
+    padding: 20px;
+}
+
+/* Carrusel */
+.carousel .carousel-inner {
+    /* Carrusel */
+.carousel .carousel-inner {
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+}
+
+.item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Secciones de contenido: Quiénes somos, Presentación, Contacto */
+.section-header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: #333; /* Texto en azul oscuro */
+}
+
+.section-info {
+    text-align: center;
+    padding: 10px 0;
+    color: #333; /* Texto en azul oscuro */
+}
+
+/* Formulario de contacto */
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-item {
+    padding: 10px;
+}
+
+.inputEnviar {
+    width: 200px;
+}
+
+/* Estilos específicos para cada sección, puedes agregar clases específicas */
+.quienesSomos {
+    background-color: #b3e0ff; /* Fondo azul claro */
+    color: #333; /* Texto en azul oscuro */
+}
+
+.presentacion {
+    background-color: #99ccff; /* Fondo azul claro */
+    color: #333; /* Texto en azul oscuro */
+}
+
+.contacto {
+    background-color: #80aaff; /* Fondo azul claro */
+    color: #333; /* Texto en azul oscuro */
+}
+
+.encabezado {
+
+     display: flex;
+     justify-content: space-between;
+ }
+   .encabezado-links {
+    
+        display: flex;
+        width: 500px;
+        justify-content: space-around;
+    ;
+
+    }
+
+    .encabezado-links > a {
+        color: black;
+        justify-content: space-around;
+        text-decoration: none;
+        align-items: center;
+        list-style-type: none;
+        display: flex;
+    }
+
+
+    
+    .division > ul {
+            list-style-type: none;
+            text-align: center;
+    }
+
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+    .quienesSomosHeader {
+        text-align: center;
+    }
+
+    .presentacionHeader {
+        text-align: center;
+    }
